@@ -6,4 +6,25 @@ body {
   background-color: rgb(0, 55, 80);
   color: rgb(172, 172, 172);
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+
+    /* 1. Unvisited link */
+  a:link {
+    color: #6ee2eb; /* Red */
+  }
+
+  /* 2. Visited link */
+  a:visited {
+    color: #8c13fd; /* Green */
+  }
+
+  /* 3. Mouse over link */
+  a:hover {
+    color: #5be4fc; /* Magenta */
+  }
+
+  /* 4. Selected/Clicked link */
+  a:active {
+    color: #6ee2eb; /* Blue */
+  }
+
 }
